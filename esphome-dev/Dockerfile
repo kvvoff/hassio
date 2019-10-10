@@ -4,7 +4,7 @@ FROM ${BUILD_FROM}
 # Copy root filesystem
 COPY rootfs /
 
-RUN pip2 install --no-cache-dir https://kvvhost.ru/wp-content/uploads/2019/10/esphome-tuya2.zip
+RUN pip2 install --no-cache-dir https://github.com/kvvoff/hassio/blob/master/esphome-dev-original2.zip
 
 # Build arguments
 ARG BUILD_VERSION=dev
